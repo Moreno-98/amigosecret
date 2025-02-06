@@ -40,6 +40,6 @@ function sortearAmigo() {
             indiceAmigo = Math.floor(Math.random() * cantidadAmigos);
 
             resultadoHTML = document.querySelector("#resultado");
-            resultadoHTML.innerHTML = ArrayAmigos[indiceAmigo];
+            resultadoHTML.innerHTML = "Amigo secreto es:" + ArrayAmigos[indiceAmigo];
         }
 }
